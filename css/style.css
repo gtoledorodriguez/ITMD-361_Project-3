@@ -1,0 +1,258 @@
+/*Applies to all*/
+nav{
+  margin:0;
+  padding: 0;
+
+  background-color: #660066;
+  overflow: hidden;
+  text-align: center;
+  list-style-type: none;
+  /*border: .1em solid white;*/
+  border-width: thick;
+  font-family: "Times New Roman", serif, monospace;
+  /*color: #B8E1FF;
+  #D1D1D1  -  gray color*/
+}
+
+nav li{
+  display: inline;
+}
+
+nav a{
+  display: inline-block;
+  color: white;
+  padding: 1em;
+  text-decoration: none;
+}
+table{
+  width: 100%;
+}
+table, td{
+  border: 1px solid;
+  border-color: transparent;
+  width: auto;
+
+  text-align: left;
+  margin: auto;
+  vertical-align: top;
+}
+
+body {
+  background-color: #D0FEF5;
+}
+
+h1, h2, h3, h4{
+  background-color: #BCB6FF;
+
+}
+
+h1{
+  text-align: center;
+}
+
+.span-u {
+  text-decoration: underline;
+}
+
+.span-strong{
+  font-weight: 600;
+}
+
+div{
+  margin-left: 1.1em;
+}
+
+.align-center{
+  margin: auto;
+  width: 60%
+}
+
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.lora-font{
+  font-family: 'Lora', "Times New Roman", serif;
+}
+
+.img-center{
+  text-align: center;
+}
+
+/*index.html*/
+.about-me{
+  text-align: left;
+}
+.hi-color{
+  color: #211103;
+  font-family: 'Lora', "Times New Roman", serif;
+
+}
+.left-em{
+  margin-left: .5em;
+}
+
+.border1{
+  border-style: dashed;
+  border-color: silver;
+  border-radius: .4em;
+  border-width: medium;
+  padding: .25em;
+}
+
+.border2{
+  border-style: solid;
+  border-color: black;
+  border-radius: 1em;
+  border-width: thick;
+  padding: .1em;
+}
+
+.curr-jobs, .other-act, .fav-books, .fav-shows, .fav-games{
+  /*font-family: 'Cousine', monospace, serif;*/
+
+}
+
+/*resume.html*/
+.resume-bc{
+  font-family: 'Lora', "Times New Roman", serif;
+}
+
+.hr-color{
+  color: #003366;
+  text-align: center;
+}
+
+.education-color, .courses-color, .skills-color, .p-ex-color, .l-ex-color, .projects-color, .e-a-color{
+  color: #211103;
+  text-align: center;
+}
+/*
+.education-color{
+  color: #990000; /*dark red/
+  text-align: center;
+}
+
+.courses-color{
+  color: #CC6600; /*dark orange
+  text-align: center;
+}
+
+.skills-color{
+  color: #CC9900; /*dark yellow
+  text-align: center;
+}
+
+.p-ex-color{ /*dark green
+  color: #336600;
+  text-align: center;
+}
+
+.l-ex-color{ /*dark blue
+  color: #003366;
+  text-align: center;
+}
+
+.projects-color{ /*dark indigo
+  color: #000066;
+  text-align: center;
+}
+
+.e-a-color{ /*dark purple
+  color: #660066;
+  text-align: center;
+}
+*/
+
+/*pets.html*/
+.pets-p{
+  margin: auto;
+  width: 60%;
+  /*border: .2em solid;*/
+}
+.playball{
+  font-family: 'Playball', "Times New Roman", serif, cursive;
+  width: max-content;
+}
+
+.Inconsolata{
+  font-family: 'Inconsolata', serif, monospace;
+  color: #003366;
+}
+
+.hp-color{
+  color: #211103;
+  text-align: center;
+}
+
+.zafi, .luna{
+  border-style: solid;
+  border-color: gray;
+  border-width: thick;
+  margin: auto;
+  padding: .5em;
+  width: 60%;
+  text-align: left;
+}
+
+.angel{
+  border-style: solid;
+  border-color: black;
+  border-width: thick;
+  margin: auto;
+  padding: .5em;
+  width: 60%;
+  text-align: right;
+}
+
+/*fixed pets.html*/
+body.fixed div{
+  margin-left: 200px;
+}
+.fixedpets-p{
+  margin: 20px;
+  width: 200px;
+  /*border: .2em solid;*/
+}
+.fixedplayball{
+  font-family: 'Playball', "Times New Roman", serif, cursive;
+  width: 100px;
+}
+
+.fixedInconsolata{
+  font-family: 'Inconsolata', serif, monospace;
+  color: #003366;
+}
+
+.fixedhp-color{
+  color: #211103;
+  text-align: center;
+}
+
+.fixedzafi, .fixedluna{
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  margin-left: 200px;
+  padding: 8px;
+  width: 500px;
+  text-align: left;
+}
+
+.fixedangel{
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  margin-left: 200px;
+  padding: 8px;
+  width: 500px;
+  text-align: right;
+}
