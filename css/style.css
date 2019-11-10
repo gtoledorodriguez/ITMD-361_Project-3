@@ -1,25 +1,27 @@
 /*Applies to all*/
 nav{
-  margin:0;
-  padding: 0;
-
   background-color: #660066;
   overflow: hidden;
   text-align: center;
-  list-style-type: none;
   /*border: .1em solid white;*/
   border-width: thick;
   font-family: "Times New Roman", serif, monospace;
   /*color: #B8E1FF;
   #D1D1D1  -  gray color*/
 }
+nav ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+}
 
 nav li{
   display: inline;
+  float: left;
 }
 
-nav a{
-  display: inline-block;
+nav ul li a{
+  display: block;
   color: white;
   padding: 1em;
   text-decoration: none;
