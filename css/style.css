@@ -17,11 +17,11 @@ nav ul{
 
 nav li{
   display: inline;
-  float: left;
+  /*float: left;*/
 }
 
 nav ul li a{
-  display: block;
+  display: inline-block;
   color: white;
   padding: 1em;
   text-decoration: none;
