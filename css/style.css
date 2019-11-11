@@ -26,6 +26,10 @@ nav ul li a{
   padding: 1em;
   text-decoration: none;
 }
+#wrapper{
+  width: 960px;
+}
+
 table{
   width: 100%;
 }
