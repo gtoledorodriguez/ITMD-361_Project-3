@@ -1,4 +1,10 @@
 /*Applies to all*/
+
+#wrapper{
+  width: 960px;
+  margin: auto;
+}
+
 nav{
   background-color: #660066;
   overflow: hidden;
@@ -25,9 +31,6 @@ nav ul li a{
   color: white;
   padding: 1em;
   text-decoration: none;
-}
-#wrapper{
-  width: 960px;
 }
 
 table{
