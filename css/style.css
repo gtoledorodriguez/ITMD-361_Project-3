@@ -266,3 +266,19 @@ body.fixed div{
   width: 500px;
   text-align: right;
 }
+
+
+@media screen and (min-width: 800px) {
+  #wrapper{
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  h1, h2, h3, h4{
+    font-size: 25px;
+  }
+
+  p, li{
+    font-size: 14px;
+  }
+}
