@@ -1,10 +1,10 @@
 /*Applies to all*/
-/* Liked this for possibly resume but not really for About me page*/
+/* Liked this for possibly resume but not really for About me page
 #wrapper{
   width: 960px;
   margin: 0 auto;
 }
-
+*/
 nav{
   background-color: #660066;
   overflow: hidden;
@@ -268,17 +268,9 @@ body.fixed div{
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 1000px) {
   #wrapper{
-    width: 500px;
+    width: 960px;
     margin: 0 auto;
-  }
-
-  h1, h2, h3, h4{
-    font-size: 25px;
-  }
-
-  p, li{
-    font-size: 14px;
   }
 }
