@@ -325,8 +325,9 @@ body.fixed div{
     margin: 0 auto;
   }
 
+  /*Modifying pets-p*/
   .pets-p{
     margin: auto;
-    width: 60%;
+    width: auto;
   }
 }
