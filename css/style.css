@@ -275,7 +275,10 @@ body.fixed div{
     background-color: #BCB6FF;
 
   }
-
+  .pets-p{
+    margin: auto;
+    width: auto;
+  }
   .zafi{
     border-style: solid;
     border-color: gray;
