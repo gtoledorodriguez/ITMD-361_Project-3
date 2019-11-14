@@ -264,7 +264,6 @@ body.fixed div{
 
 @media screen and (min-width: 700px) {
   #wrapper{
-    background-color: red;
     width: 1000px;
     margin: 0 auto;
   }
@@ -281,6 +280,38 @@ body.fixed div{
   /*Different nav-bar
     Different colors
   */
+  nav{
+    background-color: #660000;
+    overflow: hidden;
+    text-align: center;
+    /*border: .1em solid white;*/
+    border-width: thick;
+    font-family: "Times New Roman", serif, monospace;
+    /*color: #B8E1FF;
+    #D1D1D1  -  gray color*/
+  }
+  nav ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+  }
+
+  nav li{
+    display: inline;
+    /*float: left;*/
+  }
+
+  nav ul li a{
+    display: inline-block;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    background-color: #D16464;
+    text-decoration: underline overline;
+  }
+
   body {
     background-color: #D1FFD2;
   }
@@ -290,7 +321,6 @@ body.fixed div{
 
   }
   #wrapper{
-    background-color: purple;
     width: 600px;
     margin: 0 auto;
   }
