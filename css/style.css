@@ -278,15 +278,16 @@ body.fixed div{
   .pets-p{
     margin: auto;
     width: auto;
+    margin-left: 5%;
   }
   .zafi{
     border-style: solid;
     border-color: gray;
     border-width: thick;
-    margin: 0 auto;
+    margin: 0 2%;
     float: left;
     padding: .5em;
-    width: 30%;
+    width: 27%;
     text-align: left;
   }
 
@@ -294,10 +295,10 @@ body.fixed div{
     border-style: solid;
     border-color: black;
     border-width: thick;
-    margin: 0 auto;
+    margin: 0;
     float: left;
     padding: .5em;
-    width: 30%;
+    width: 27%;
     text-align: right;
   }
 
@@ -305,10 +306,10 @@ body.fixed div{
     border-style: solid;
     border-color: gray;
     border-width: thick;
-    margin: 0 auto;
-    float: right;
+    margin: 0 2%;
+    float: left;
     padding: .5em;
-    width: 30%;
+    width: 27%;
     text-align: left;
   }
 }
