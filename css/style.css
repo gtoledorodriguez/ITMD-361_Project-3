@@ -312,6 +312,16 @@ body.fixed div{
     width: 27%;
     text-align: left;
   }
+
+  #map{
+    height: 100%;
+  }
+
+  html .fullwindow, body .fullwindow{
+    height: 100%;
+    margin: 10%;
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -369,4 +379,7 @@ body.fixed div{
     width: auto;
   }
 
+  #map{
+    height: 100%;
+  }
 }

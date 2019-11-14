@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="fullwindow">
   <head>
     <meta charset="utf-8">
-    <title>Map to Museum of Science and Industry</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Simple Map</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <!--My Api Key: AIzaSyB5BUZByzXKzWpIJIZ4zGLNn-RF4xZJsVQ-->
   </head>
-  <body>
+  <body class="fullwindow">
     <nav>
       <ul>
         <li><a href="index.html">About Me</a></li>
@@ -20,6 +21,15 @@
 
     <h1>Museum of Science and Industry</h1>
     <div id="map">
+      <script>
+        var map;
+        function initMap(){
+          map = new google.maps.Map(document.getElementById('map'),{
+            center: {lat: -34.397, lng: 150.644},
+            zoom:8
+          });
+        }
+      </script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5BUZByzXKzWpIJIZ4zGLNn-RF4xZJsVQ&callback=initMap"
     type="text/javascript"></script>
     </div>
