@@ -46,15 +46,6 @@ table, td{
   vertical-align: top;
 }
 
-body {
-  background-color: #D0FEF5;
-}
-
-h1, h2, h3, h4{
-  background-color: #BCB6FF;
-
-}
-
 h1{
   text-align: center;
 }
@@ -274,12 +265,27 @@ body.fixed div{
     width: 1000px;
     margin: 0 auto;
   }
-  /*Change to current colors*/
+  body {
+    background-color: #D0FEF5;
+  }
+
+  h1, h2, h3, h4{
+    background-color: #BCB6FF;
+
+  }
 }
 @media screen and (max-width: 700px) {
   /*Different nav-bar
     Different colors
   */
+  body {
+    background-color: #D1FFD2;
+  }
+
+  h1, h2, h3, h4{
+    background-color: #FFB5B5;
+
+  }
   #wrapper{
     background-color: purple;
     width: 600px;
