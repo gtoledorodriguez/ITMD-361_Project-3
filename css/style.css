@@ -320,7 +320,7 @@ body.fixed div{
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: auto;
+    width: 100%;
     text-align: center;
     /*border: .1em solid white;*/
     border-width: thick;
