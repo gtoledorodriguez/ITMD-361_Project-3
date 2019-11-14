@@ -262,7 +262,6 @@ body.fixed div{
 }
 
 
-@media screen and (min-width: 700px) {
 @media screen and (min-width: 825px) {
   #wrapper{
     width: 1000px;
@@ -314,7 +313,6 @@ body.fixed div{
     text-align: left;
   }
 }
-@media screen and (max-width: 700px) {
 
 @media screen and (max-width: 825px) {
   /*Different nav-bar
