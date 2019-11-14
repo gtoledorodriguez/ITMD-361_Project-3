@@ -315,12 +315,11 @@ body.fixed div{
 }
 
 @media screen and (max-width: 825px) {
-  /*Different nav-bar
-    Different colors
-  */
   nav{
     background-color: #660000;
     overflow: hidden;
+    position: fixed;
+    top: 0;
     text-align: center;
     /*border: .1em solid white;*/
     border-width: thick;
