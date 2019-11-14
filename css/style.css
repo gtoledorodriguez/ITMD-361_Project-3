@@ -32,6 +32,9 @@ nav ul li a{
   padding: 1em;
   text-decoration: none;
 }
+nav ul li a:hover{
+  background-color: #D164D1;
+}
 
 table{
   width: 100%;
