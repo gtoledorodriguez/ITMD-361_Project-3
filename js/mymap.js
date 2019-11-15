@@ -128,7 +128,7 @@ function initMap() {
     map: map
   });
 
-  var image = "../images/msi.jpeg";
+  var image = "../images/msi.jpg";
   var msiMarker = new google.maps.Marker({
     position: { lat: 41.8615, lng: -87.6136 },
     map: map,
