@@ -1,17 +1,16 @@
 function initMap() {
-  var ei1 = document.getElementById("map");
-  var myLatLng = new google.maps.Latlng(lat: 41.8615, lng: -87.6136);
+  var mjs = document.getElementById("map");
+  var myLocation = new google.maps.Latlng(lat: 41.8615, lng: -87.6136);
 
   var mapOptions = {
     zoom: 18,
-    center: myLatLng,
-    styles: mapstyle
+    center: myLocation
   });
 
-  var myMap = new google.maps.Map(ei1, mapOptions);
+  var myMap = new google.maps.Map(mjs, mapOptions);
   var image = "../images/msi.jpg";
   var marker = new google.maps.Marker({
-    position: myLatLng,
+    position: myLocation,
     map: myMap,
     animation: google.maps.Animation.BOUNCE,
     icon: image
