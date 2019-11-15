@@ -136,7 +136,7 @@ function initMap() {
     content: info
   });
 
-  marker.addListener('hover',function(){
+  marker.addListener('mouseover',function(){
     infowindow.open(map,marker);
   });
 
