@@ -40,7 +40,7 @@ function initMap() {
               {
                 featureType: 'poi.park',
                 elementType: 'geometry.fill',
-                stylers: [{color: '#a5b076'}]
+                stylers: [{color: '#8faf6e'}]
               },
               {
                 featureType: 'poi.park',
@@ -105,7 +105,7 @@ function initMap() {
               {
                 featureType: 'water',
                 elementType: 'geometry.fill',
-                stylers: [{color: '#b9d3c2'}]
+                stylers: [{color: '#75d1ce'}]
               },
               {
                 featureType: 'water',
