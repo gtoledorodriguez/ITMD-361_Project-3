@@ -122,15 +122,9 @@ function initMap() {
       mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain', 'styled_map']
     }
   });
-
+  var image = "../images/msi.jpg";
   var marker = new google.maps.Marker({
     position: myLocation,
-    map: map
-  });
-
-  var image = "../images/msi.jpg";
-  var msiMarker = new google.maps.Marker({
-    position: { lat: 41.8615, lng: -87.6136 },
     map: map,
     icon: image
   });
