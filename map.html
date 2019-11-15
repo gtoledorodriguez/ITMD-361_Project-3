@@ -4,6 +4,8 @@
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <!--My Api Key: AIzaSyB5BUZByzXKzWpIJIZ4zGLNn-RF4xZJsVQ  -->
     <style>
       /* Always set the map height explicitly to define the size of the div
@@ -16,14 +18,25 @@
         height: 90%;
         width: auto;
         margin: 0 4em;
-        padding: 0;
       }
     </style>
-  </head>
-  <body>
-    <div id="map"></div>
+
     <script type="js/mymap.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5BUZByzXKzWpIJIZ4zGLNn-RF4xZJsVQ&callback=initMap"
     async defer></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="pets.html">My Pets</a></li>
+        <li><a href="pets-fixed.html">My Pets Fixed</a></li>
+        <li><a href="map.html">Map</a></li>
+      </ul>
+    </nav>
+
+    <div id="map"></div>
+
   </body>
 </html>
