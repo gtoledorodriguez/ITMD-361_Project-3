@@ -9,7 +9,7 @@ function initMap() {
   });
 
   var myMap = new google.maps.Map(ei1, mapOptions);
-  var image = "images/msi.jpg";
+  var image = "../images/msi.jpg";
   var marker = new google.maps.Marker({
     position: myLatLng,
     map: myMap,
