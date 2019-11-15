@@ -1,26 +1,26 @@
+var map;
 function initMap() {
-  var mjs = document.getElementById("map");
-  var myLocation = new google.maps.Latlng(lat: 41.7906, lng: 87.5831);
+  var myLatLng = { lat: 41.8615, lng: -87.6136 };
 
-  var mapOptions = {
-    zoom: 18,
-    center: myLocation
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 16,
+    center: myLatLng,
+    styles: mapstyle
   });
 
-  var myMap = new google.maps.Map(mjs, mapOptions);
-  var image = "../images/msi.jpg";
   var marker = new google.maps.Marker({
-    position: myLocation,
-    map: myMap,
-    animation: google.maps.Animation.BOUNCE,
+    position: myLatLng,
+    map: map,
+    title: "The Balbo Monument"
+  });
+
+  var image = "images/balbo.jpeg";
+  var beachMarker = new google.maps.Marker({
+    position: { lat: 41.8615, lng: -87.6136 },
+    map: map,
     icon: image
   });
-
-  var info = "The Museum of Science and Industry was originally constructed for the 1893 World's Columbian Exposition's 'White City', originally known as the  Palace of Fine Arts. The museum is the only building still standing from what once was the 'White City'. It was bought and opened by Julius Rosenwald, chairman of Sears, in 1933. He was inspired by a musuem he had saw in Europe and decided to create his own interactive museum. At the time of its opening, it only had one exhibit, the Coal Mine Exhibit which still exists today. Rosenwald had actual coal miner come in and be the tour guides for the exhibit. Now the museum has over 2,000 different exhibits!"
-
 }
-
-google.maps.event.addDomListener(window,'load',init);
 
 const mapstyle = [
   {
