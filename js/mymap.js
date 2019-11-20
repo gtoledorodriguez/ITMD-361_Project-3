@@ -105,7 +105,7 @@ function initMap() {
               {
                 featureType: 'water',
                 elementType: 'geometry.fill',
-                stylers: [{color: '#9900ff'}] /*#75d1ce*/
+                stylers: [{color: '#75d1ce'}] 
               },
               {
                 featureType: 'water',
