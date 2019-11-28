@@ -26,7 +26,6 @@ h1{
 span {
   text-decoration: underline;
 }
-
 .span-strong{
   font-weight: 600;
 }
@@ -69,6 +68,10 @@ span {
 /*index.html*/
 .about-me{
   text-align: left;
+}
+.me, .acmwtimg{
+  margin-left: auto;
+  margin-right: auto;
 }
 .hi-color{
   color: #211103;
