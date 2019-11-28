@@ -322,9 +322,9 @@ body.fixed div{
   }
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (min-width: 0px) {
   nav{
-    background-color: #660000;
+    background-color: #000000;
     overflow: hidden;
     top: 0;
     width: 100%;
