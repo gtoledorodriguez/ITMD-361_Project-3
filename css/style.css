@@ -31,13 +31,14 @@ span {
   font-weight: 600;
 }
 
-.margin-lr div{
-  margin-left: 1.1em;
-  margin-right: 1.1em;
-}
 .mapBody div #map{ /*The div above is messing up my google maps. This will hopefully fix it*/
   margin-left: 0;
   margin-right: 0;
+}
+
+.index-bc{
+  margin-left: 1.1em;
+  margin-right: 1.1em;
 }
 
 .align-center{
