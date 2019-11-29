@@ -103,6 +103,9 @@ span {
 
 }
 
+.bx-wrapper{
+  margin: 0 auto;
+}
 .bx-wrapper img{
   margin: 0 auto;
 }
