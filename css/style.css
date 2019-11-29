@@ -103,6 +103,9 @@ span {
 
 }
 
+.bx-wrapper img{
+  margin: 0 auto;
+}
 /*resume.html*/
 .resume-bc{
   font-family: 'Lora', "Times New Roman", serif;
