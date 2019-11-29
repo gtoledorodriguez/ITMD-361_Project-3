@@ -105,6 +105,8 @@ span {
 
 .bx-wrapper{
   margin: 0 auto;
+  background-color: inherit;
+  border: 0;
 }
 .bx-wrapper img{
   margin: 0 auto;
